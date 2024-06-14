@@ -17,6 +17,13 @@ header {
     height: 60px;
 }
 
+nav{
+    color: tra;
+}
+
+#home{
+    height: 100vh;
+}
 header .logo {
     width: 100px;
 }
@@ -102,7 +109,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: left;
-    cont
 }
 
 .contact, .address-map, .signup {
