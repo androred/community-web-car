@@ -17,13 +17,6 @@ header {
     height: 60px;
 }
 
-nav{
-    color: tra;
-}
-
-#home{
-    height: 100vh;
-}
 header .logo {
     width: 100px;
 }
@@ -49,6 +42,14 @@ header nav ul li a {
     text-decoration: none;
 }
 
+#home {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure full viewport height */
+
+}
+
 .news {
     padding: 40px;
     background-color: #f4f4f4;
@@ -68,8 +69,8 @@ header nav ul li a {
 
 .news-item img {
     width: 100%;
-    height: auto;
-    display: block;
+  height: 200px;
+  object-fit: cover;
 }
 
 .news-item h3{
@@ -91,6 +92,8 @@ header nav ul li a {
 
 }
 
+
+
 .about {
     padding: 40px;
     background-color: #f4f4f4;
@@ -109,6 +112,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: left;
+    cont
 }
 
 .contact, .address-map, .signup {
